@@ -24,3 +24,4 @@ C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\obj\Debug\net6.
 C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.pdb
 C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.genruntimeconfig.cache
 C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\obj\Debug\net6.0\ref\EmployeeManagement.dll
+C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\bin\Debug\net6.0\libman.json
