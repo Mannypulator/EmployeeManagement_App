@@ -22,8 +22,8 @@ namespace EmployeeManagement.Controllers
         {
             var model = _employeeRepository.GetEmployee(1);
             ViewBag.PageTitle = "Employee Details";
-            ViewBag.Employee= model;
-            return View();
+           
+            return View(model);
         }
 
         public IActionResult Privacy()
