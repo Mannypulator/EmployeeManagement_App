@@ -19,5 +19,10 @@ namespace EmployeeManagement.Repository
         {
             return _employees.FirstOrDefault(employee => employee.Id == id);
         }
+
+        public Employee GetEmployees()
+        {
+        
+        }
     }
 }
