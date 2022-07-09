@@ -16298,6 +16298,11 @@
   "RootNamespace": "EmployeeManagement",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\Views\\Home\\Details.cshtml",
+      "TargetPath": "Views\\Home\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -16330,11 +16335,6 @@
     {
       "FilePath": "c:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\Views\\Home\\Detail.cshtml",
-      "TargetPath": "Views\\Home\\Detail.cshtml",
       "FileKind": "mvc"
     }
   ],
