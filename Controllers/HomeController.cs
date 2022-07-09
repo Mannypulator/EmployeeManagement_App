@@ -6,6 +6,8 @@ using System.Diagnostics;
 
 namespace EmployeeManagement.Controllers
 {
+    // [Route("Home")]
+    [Route("[controllers]")]
     public class HomeController : Controller
     {
         private IEmployeeRepository _employeeRepository;
@@ -15,15 +17,25 @@ namespace EmployeeManagement.Controllers
             _employeeRepository = employeeRepository;
         }
 
-        public string Index()
+        [Route("")]
+        // [Route("Home")]
+        // [Route("Home/Index")]
+        [Route("~/")]
+        // [Route("Index")]
+        [Route("[action]")]
+        public ViewResult Index()
         {
-            return _employeeRepository.GetEmployee(1).Name;
+            var employees = _employeeRepository.GetEmployees();
+            return View(employees);
         }
-        public ViewResult Detail()
+        [Route("Home/Detail/{id?}")]
+        // [Route("Detail/{id?}")]
+        [Route("[action]/{id?}")]
+        public ViewResult Detail(int? id)
         {
             var homeDetailsViewModel = new HomeDetailsViewModel()
             {
-                Employee = _employeeRepository.GetEmployee(1),
+                Employee = _employeeRepository.GetEmployee(id??1),
                 PageTitle = "Employee Details",
             };
           
