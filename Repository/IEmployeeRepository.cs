@@ -6,5 +6,6 @@ namespace EmployeeManagement.Repository
     {
         public Employee GetEmployee(int id);
         public IEnumerable<Employee> GetEmployees();
+        public Employee AddEmployee(Employee employee);
     }
 }

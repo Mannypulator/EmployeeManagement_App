@@ -15,12 +15,13 @@ namespace EmployeeManagement.Controllers
             _employeeRepository = employeeRepository;
         }
 
-        public ViewResult Index()
+        public IActionResult Index()
         {
             var employees = _employeeRepository.GetEmployees();
             return View(employees);
         }
-        public ViewResult Details(int id)
+    
+        public IActionResult Details(int id)
         {
             var homeDetailsViewModel = new HomeDetailsViewModel()
             {
@@ -30,6 +31,17 @@ namespace EmployeeManagement.Controllers
           
 
             return View(homeDetailsViewModel);
+        }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Employee employee)
+        {
+            var emp = _employeeRepository.AddEmployee(employee);
+            return RedirectToAction("details", new { id = emp.Id});
         }
 
         public IActionResult Privacy()
