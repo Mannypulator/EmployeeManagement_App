@@ -16323,8 +16323,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\Views\\Home\\EmployeeNotFound.cshtml",
+      "TargetPath": "Views\\Home\\EmployeeNotFound.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\Views\\Home\\Edit.cshtml",
+      "TargetPath": "Views\\Home\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

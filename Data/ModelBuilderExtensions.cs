@@ -11,16 +11,18 @@ namespace EmployeeManagement.Data
                 new Employee
                 {
                     Id = 1,
-                    Name ="Mark",
-                    Email="mark@mannytech.com",
-                    Department = Dept.HR
+                    Name = "Mark",
+                    Email = "mark@mannytech.com",
+                    Department = Dept.HR,
+                    PhotoPath = null,
                 },
                   new Employee
                   {
                       Id = 2,
                       Name = "Daniel",
                       Email = "daniel@mannytech.com",
-                      Department = Dept.HR
+                      Department = Dept.HR,
+                      PhotoPath = null,
                   }
 
             );
