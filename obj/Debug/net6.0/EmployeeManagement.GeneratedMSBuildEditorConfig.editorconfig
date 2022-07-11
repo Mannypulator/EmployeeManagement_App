@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Error/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Error/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcTm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
