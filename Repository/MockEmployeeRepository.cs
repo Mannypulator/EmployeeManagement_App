@@ -23,6 +23,17 @@ namespace EmployeeManagement.Repository
             return employee;
         }
 
+        public Employee DeleteEmployee(int id)
+        {
+            var emp =  _employees.FirstOrDefault(employee => employee.Id == id);
+            if(emp != null)
+            {
+                _employees.Remove(emp);
+            }
+            return emp;
+
+        }
+
         public Employee GetEmployee(int id)
         {
             return _employees.FirstOrDefault(employee => employee.Id == id);
@@ -31,6 +42,18 @@ namespace EmployeeManagement.Repository
         public IEnumerable<Employee> GetEmployees()
         {
             return _employees;
+        }
+
+        public Employee UpdateEmployee(Employee employeeChanges)
+        {
+            var emp = _employees.FirstOrDefault(employee => employee.Id == employeeChanges.Id);
+            if(emp != null)
+            {
+                emp.Name = employeeChanges.Name;
+                emp.Department = employeeChanges.Department;
+                emp.Email = employeeChanges.Email;
+            }
+            return emp;
         }
     }
 }
