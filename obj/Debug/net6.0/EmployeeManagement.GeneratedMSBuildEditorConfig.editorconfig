@@ -8,69 +8,85 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EmployeeManagement
 build_property.RootNamespace = EmployeeManagement
-build_property.ProjectDir = C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\
+build_property.ProjectDir = c:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement
+build_property.MSBuildProjectDirectory = c:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Account/Login.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Account/Register.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Error/Error.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Administration/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQ3JlYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Administration/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Administration/EditUsersInRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFVzZXJzSW5Sb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Administration/ListRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTGlzdFJvbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Error/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Error/NotFound.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcTm90Rm91bmQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/Create.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/Details.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/Edit.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/EmployeeNotFound.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/EmployeeNotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZU5vdEZvdW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/Index.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/Privacy.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Shared/Error.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Shared/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/_ViewImports.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/_ViewStart.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Shared/_Layout.cshtml]
+[c:/Users/23480/Documents/Csharp_Learning_path/EmployeeManagement/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zfw5uihhvp
