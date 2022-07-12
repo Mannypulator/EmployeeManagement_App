@@ -34,6 +34,10 @@ namespace EmployeeManagement.Controllers
                 var result = await userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+                    if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                    {
+                        return RedirectToAction("ListUsers", "Administration");
+                    }
                     await signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("index", "home");
                 }
@@ -65,7 +69,7 @@ namespace EmployeeManagement.Controllers
         [HttpPost]
         [AllowAnonymous]
 
-        public async Task<IActionResult> Login(LoginViewModel model, string returnUrl)
+        public async Task<IActionResult> Login(LoginViewModel model, string? returnUrl = null)
         {
             if (ModelState.IsValid)
             {
@@ -114,5 +118,6 @@ namespace EmployeeManagement.Controllers
         {
             return View();
         }
+
     }
 }
