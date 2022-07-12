@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cNViXaiarQyIWIq2iTdU3EKdCEVuB0BaZxdT/4SG6gE=",
+  "Hash": "/UlO5trBsnHVIYYd6SS/w1vnoL4+q66w6qcsBDthzDE=",
   "Source": "EmployeeManagement",
   "BasePath": "_content/EmployeeManagement",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\wwwroot\\images\\1b6390c0-b98a-4676-b426-80265bb03ad4_345806.jpg",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/1b6390c0-b98a-4676-b426-80265bb03ad4_345806.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1b6390c0-b98a-4676-b426-80265bb03ad4_345806.jpg"
+    },
+    {
       "Identity": "C:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\wwwroot\\images\\2d6f3524-5374-4c5c-807a-698c10fb0af8_46497.png",
       "SourceId": "EmployeeManagement",
       "SourceType": "Discovered",
@@ -100,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\2d6f3524-5374-4c5c-807a-698c10fb0af8_46497.png"
+    },
+    {
+      "Identity": "C:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\wwwroot\\images\\617571aa-7e7b-435b-b529-6a1e479b0d58_837268.jpg",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/617571aa-7e7b-435b-b529-6a1e479b0d58_837268.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\617571aa-7e7b-435b-b529-6a1e479b0d58_837268.jpg"
     },
     {
       "Identity": "C:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\wwwroot\\images\\849e3bfa-dbb9-40bb-b77d-2458261bb874_Emmanuel Imion.jpeg",

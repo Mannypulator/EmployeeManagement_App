@@ -60,3 +60,8 @@ C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\bin\Debug\net6.
 C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.csproj.CopyComplete
 C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\bin\Debug\net6.0\Humanizer.dll
 C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\23480\Documents\Csharp_Learning_path\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
