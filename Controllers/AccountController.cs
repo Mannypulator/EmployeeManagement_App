@@ -64,7 +64,7 @@ namespace EmployeeManagement.Controllers
         [HttpPost]
         [AllowAnonymous]
 
-        public async Task<IActionResult> Login(LoginViewModel model)
+        public async Task<IActionResult> Login(LoginViewModel model, string returnUrl)
         {
             if (ModelState.IsValid)
             {
@@ -73,13 +73,39 @@ namespace EmployeeManagement.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("index", "home");
+                    if (!string.IsNullOrEmpty(returnUrl))
+                    {
+                        return LocalRedirect(returnUrl);
+                    }
+                    else
+                    {
+                        return RedirectToAction("index", "home");
+                    }
+
                 }
 
                 ModelState.AddModelError(string.Empty, "Invalid Login Attempt");
             }
 
             return View(model);
+        }
+        //[HttpGet]
+        //[HttpPost] 
+        [AcceptVerbs("Get", "Post")]
+        [AllowAnonymous]
+        public async Task<IActionResult> IsEmailInUse(string email)
+        {
+            var user = await userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                //return Ok();
+                return Json(true);
+            }
+            else
+            {
+                //return BadRequest("Email is already in use");
+                return Json($"Email {email} is already in use");
+            }
         }
     }
 }
