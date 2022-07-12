@@ -23,5 +23,7 @@ namespace EmployeeManagement.ViewModels
         [DataType(DataType.Password)]
         [Display(Name = "Confirm Password")]
         public string? ConfirmPassword { get; set; }
+
+        public string? City { get; set; }
     }
 }

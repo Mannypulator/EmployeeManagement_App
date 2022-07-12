@@ -1,4 +1,5 @@
 using EmployeeManagement.Data;
+using EmployeeManagement.Models;
 using EmployeeManagement.Repository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -12,7 +13,7 @@ builder.Services.AddControllersWithViews();
 //To make use of MockEmployeeRepository that uses a Mocking In Memory Collection change the SQLEmployeeRepository to use the Mocking In Memory Repository
 builder.Services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
 builder.Services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("EmployeeDBConnections")));
-builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequiredLength = 10;
