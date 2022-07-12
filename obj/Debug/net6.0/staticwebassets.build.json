@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/UlO5trBsnHVIYYd6SS/w1vnoL4+q66w6qcsBDthzDE=",
+  "Hash": "6hvgdVpVUaLjqcuxu5tIJq2/4iHGiGWx0rjv+t5czyA=",
   "Source": "EmployeeManagement",
   "BasePath": "_content/EmployeeManagement",
   "Mode": "Default",
@@ -202,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\wwwroot\\images\\noaccess.jpg",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/noaccess.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\noaccess.jpg"
     },
     {
       "Identity": "C:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\wwwroot\\images\\noimage.jpg",
