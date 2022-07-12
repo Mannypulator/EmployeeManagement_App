@@ -5,6 +5,7 @@ using EmployeeManagement.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.IO;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EmployeeManagement.Controllers
 {
@@ -19,13 +20,13 @@ namespace EmployeeManagement.Controllers
             _employeeRepository = employeeRepository;
             this.webHostingEnvironment = webHostingEnvironment;
         }
-
+        [AllowAnonymous]
         public IActionResult Index()
         {
             var employees = _employeeRepository.GetEmployees();
             return View(employees);
         }
-
+        [AllowAnonymous]
         public IActionResult Details(int? id)
         {
             var employee = _employeeRepository.GetEmployee(id.Value);

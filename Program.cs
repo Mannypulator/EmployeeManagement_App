@@ -1,6 +1,8 @@
 using EmployeeManagement.Data;
 using EmployeeManagement.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +18,11 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequiredLength = 10;
     options.Password.RequiredUniqueChars = 3;
 });
-
+builder.Services.AddControllers(config =>
+{
+    var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+    config.Filters.Add(new AuthorizeFilter(policy));
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
