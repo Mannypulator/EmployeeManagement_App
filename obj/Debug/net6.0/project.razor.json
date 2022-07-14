@@ -16323,11 +16323,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\Views\\Error\\Error.cshtml",
-      "TargetPath": "Views\\Error\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\23480\\Documents\\Csharp_Learning_path\\EmployeeManagement\\Views\\Account\\Login.cshtml",
       "TargetPath": "Views\\Account\\Login.cshtml",
       "FileKind": "mvc"
