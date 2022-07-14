@@ -25,12 +25,17 @@ builder.Services.AddControllers(config =>
     config.Filters.Add(new AuthorizeFilter(policy));
 });
 
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.AccessDeniedPath = "/Administration/AccessDenied";
+});
+
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("CreateRolePolicy", policy => policy.RequireClaim("Create Role"));
-    options.AddPolicy("EditRolePolicy", policy => policy.RequireClaim("Edit Role"));
-    options.AddPolicy("DeleteRolePolicy", policy => policy.RequireClaim("Delete Role"));
-    options.AddPolicy("DeleteUserPolicy", policy => policy.RequireClaim("Delete User"));
+    options.AddPolicy("CreateRolePolicy", policy => policy.RequireClaim("Create Role", "true"));
+    options.AddPolicy("EditRolePolicy", policy => policy.RequireClaim("Edit Role", "true"));
+    options.AddPolicy("DeleteRolePolicy", policy => policy.RequireClaim("Delete Role", "true"));
+    options.AddPolicy("DeleteUserPolicy", policy => policy.RequireClaim("Delete User", "true"));
 });
 
 var app = builder.Build();
