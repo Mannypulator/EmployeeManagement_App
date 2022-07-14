@@ -24,6 +24,15 @@ builder.Services.AddControllers(config =>
     var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
     config.Filters.Add(new AuthorizeFilter(policy));
 });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("CreateRolePolicy", policy => policy.RequireClaim("Create Role"));
+    options.AddPolicy("EditRolePolicy", policy => policy.RequireClaim("Edit Role"));
+    options.AddPolicy("DeleteRolePolicy", policy => policy.RequireClaim("Delete Role"));
+    options.AddPolicy("DeleteUserPolicy", policy => policy.RequireClaim("Delete User"));
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

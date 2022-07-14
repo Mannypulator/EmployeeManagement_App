@@ -254,6 +254,7 @@ namespace EmployeeManagement.Controllers
             }
         }
         [HttpPost]
+        [Authorize(Policy = "DeleteUserPolicy")]
         public async Task<IActionResult> DeleteUser(string id)
         {
             var user = await userManager.FindByIdAsync(id);
@@ -282,6 +283,7 @@ namespace EmployeeManagement.Controllers
         }
 
         [HttpPost]
+        [Authorize(Policy = "DeleteRolePolicy")]
         public async Task<IActionResult> DeleteRole(string id)
         {
             var role = await roleManager.FindByIdAsync(id);
